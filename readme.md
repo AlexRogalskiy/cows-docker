@@ -1,8 +1,12 @@
-# cows [![Build Status](https://travis-ci.org/alexellis/cows.svg?branch=master)](https://travis-ci.org/alexellis/cows)
+# alexellis/cows
 
 > 400+ ASCII fun ASCII cows
 
 ![](https://cloud.githubusercontent.com/assets/170270/13090998/a9cdd6b0-d52b-11e5-83ec-614143c9a3bb.png)
+
+This is a fork of the work done by:
+
+MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 ## Using Docker
 
