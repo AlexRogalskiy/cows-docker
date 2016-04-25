@@ -1,4 +1,4 @@
-var cows = require('./')
+var cows = require('cows')
 var all = cows();
 
 var cowArgument = process.argv[2]

@@ -8,8 +8,8 @@ FROM mhart/alpine-node:4
 
 RUN mkdir -p /code/
 WORKDIR /code/
-ADD package.json ./
-ADD *.js ./
-ADD cows.txt ./
+RUN npm init -y
+RUN npm install cows
+ADD show_cow.js ./
 
 ENTRYPOINT ["node", "show_cow.js"]

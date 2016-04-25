@@ -1,121 +1,78 @@
-# cows [![Build Status](https://travis-ci.org/sindresorhus/cows.svg?branch=master)](https://travis-ci.org/sindresorhus/cows)
+# cows [![Build Status](https://travis-ci.org/alexellis/cows.svg?branch=master)](https://travis-ci.org/alexellis/cows)
 
-> 400+ ASCII 🐮s
-
-The list is just a [text file](cows.txt) and can be used wherever.
+> 400+ ASCII fun ASCII cows
 
 ![](https://cloud.githubusercontent.com/assets/170270/13090998/a9cdd6b0-d52b-11e5-83ec-614143c9a3bb.png)
 
+## Using Docker
 
-## Examples
+* Docker does not need Node.js to be installed on your computer.
+* You can pick a cow number to see, that's not available in the main repo
+* Kind of like [Whalesay](https://docs.docker.com/linux/step_three/)
 
-```
-         (__)
-         (oo)
-  /-------\/
- / |     ||
-+  ||----||
-   ~~    ~~
-     Cow
+Plus the ASCII cows assembled by [Sindre Sorhus](http://sindresorhus.com) are really fun.
 
-
-       \(:)/
-       (o|o)
-  /-----\_/
- /|      |
-^ ||----||
-  ^^    ^^
- Klingon Cow
-
-
-                 ________________
-         ^__^   /                \
-         (oo)  ( Milk is logical. )
-  /-------\/ --'\________________/
- / |     ||
-*  ||W---||
-   ^^    ^^
-Mr Spock's cow
-
-
-      (__)
-    /   oo      ______
-   |  /\_|     |      \
-   |  |___     |       |
-   |   ---@    |_______|
-*  |  |   ----   |    |
- \ |  |_____
-  \|________|
-        CompuCow
-
-
-        ___________________________
-       | (__)  (__)  (__)   (__)  |
-       | ( oo  ( oo  ( oo   ( oo  |
-_______| /\_|  /\_|  /\_|   /\_|  |________
-|                                         |
-|   _____                        _____    |
-|___|   |________________________|   |____|
-    |___|                        |___|
-              Cow-pooling
-
-
-  /--------------------/
- / |     ||           /          (__)
-*  ||----||          /-----------(oo)
-   ^^    ^^                       \/
-        Network Virtual Cow
-(with separate frontend and backend)
-
-
-         (__)               (__)  |    |  (__)
-         (--)               (--)  |    |  (--)
-  /-------\/   /o    /-------\/   |    I   \/-------\
- / |  M  |----< o   / |  L  |----<T    I>----|  D  | \
-*  ||----|   /  o  *  ||----|     I    I     |----||  *
-   ^^    ^      |     ^^    ^          |     ^    ^^
-                |                      |
-              Teenage Mutant Ninja Cows
-
-                                  @
-               (__)    (__) _____/
-            /| (oo) _  (oo)/----/_____    *
-  _o\______/_|\_\/_/_|__\/|____|//////== *- *  * -
- /_________   \   00 |   00 |       /== -* * -
-[_____/^^\_____\_____|_____/^^\_____]     *- * -
-      \__/                 \__/
-               Cow-mobile
-```
-
-
-## Install
+**Pull the image straight from the Docker Hub:**
 
 ```
+docker run alexellis2/cows 423
+```
+
+**Build the image:**
+
+```
+docker build -t cows .
+```
+
+**Push the image to your own Hub**
+
+First build the image, then log into the Docker Hub, tag the image with your username, then push.
+
+```
+$ docker login
+$ docker tag cows cows
+```
+
+## Local installation without Docker
+
+```
+$ npm init -y
 $ npm install --save cows
 ```
 
-
 ## Usage
 
-```js
-const cows = require('cows');
+```
+$ node ./show_cow.js 0
+Enter cow number between [1-423]
 
-cows();
+$ node ./show_cow.js 423
+               (__)
+(__)           (oo)
+(oo)      ______\/
+-\/    /|      |
+| |   * |______|
+| |        ||
+---        --
+Cow Computer
 ```
 
+## Contributing
 
-## API
+If you'd like to contribute cow ASCII please head over to [sindresorhus/cows][https://github.com/sindresorhus/cows] and raise a PR with him.
 
-### cows()
+I'm open to contributions to this repository - if you'd like to add an cows-based express.js web-server etc, then please send an PR.
 
-Returns an array of cows.
+Contributing ideas:
 
-
-## Related
-
-- [vaca](https://github.com/sindresorhus/vaca) - Get a random ASCII cow 🐮
-
+* Express.js RESTFUL api to give back numbered / random cows
+* docker-compose file
+* .travis.yml build
 
 ## License
+
+MIT © [Alex Ellis](http://alexelis.io)
+
+This is a fork of the work done by:
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
