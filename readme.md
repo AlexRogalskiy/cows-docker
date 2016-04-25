@@ -51,11 +51,11 @@ $ docker push some_username/cows
 ## Local installation without Docker
 
 ```
-$ npm init -y
-$ npm install --save cows
+$ git clone https://github.com/alexellis/cows
+$ npm install
 ```
 
-## Usage
+## Usage without Docker
 
 ```
 $ node ./show_cow.js 0
