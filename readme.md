@@ -1,4 +1,4 @@
-# alexellis/cows
+# alexellis/cows-docker
 
 > 400+ ASCII fun ASCII cows
 
@@ -51,7 +51,7 @@ $ docker push some_username/cows
 ## Local installation without Docker
 
 ```
-$ git clone https://github.com/alexellis/cows
+$ git clone https://github.com/alexellis/cows-docker
 $ npm install
 ```
 
