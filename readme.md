@@ -11,7 +11,7 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 ## Using Docker
 
 * Docker does not need Node.js to be installed on your computer.
-* You can pick a cow number to see, that's not available in the main repo
+* Pass the cow number between 1-423 that you want to view.
 * Kind of like [Whalesay](https://docs.docker.com/linux/step_three/)
 
 Plus the ASCII cows assembled by [Sindre Sorhus](http://sindresorhus.com) are really fun.
