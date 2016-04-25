@@ -1,9 +1,9 @@
 {
-  "name": "cows",
+  "name": "showcows",
   "version": "1.1.0",
-  "description": "ASCII cows 🐮",
+  "description": "ASCII cows",
   "license": "MIT",
-  "repository": "alexellis/cows",
+  "repository": "alexellis/cows-docker",
   "author": {
     "name": "Alex Ellis",
     "email": "alexellis2@gmail.com",

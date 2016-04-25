@@ -72,6 +72,23 @@ $ node ./show_cow.js 423
 Cow Computer
 ```
 
+## As an npm module
+
+```
+$ npm install --save showcows
+$ var cows = require('show-cows');
+$ console.log(cows(1))
+
+(__)
+(__)           (oo)
+(oo)      ______\/
+-\/    /|      |
+| |   * |______|
+| |        ||
+---        --
+Cow Computer
+```
+
 ## Contributing
 
 If you'd like to contribute cow ASCII please head over to [sindresorhus/cows][https://github.com/sindresorhus/cows] and raise a PR with him.
