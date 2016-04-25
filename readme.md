@@ -16,10 +16,20 @@ MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 Plus the ASCII cows assembled by [Sindre Sorhus](http://sindresorhus.com) are really fun.
 
-**Pull the image straight from the Docker Hub:**
+**Run the image straight from the Docker Hub:**
+
+If this is the first run, then Docker will `pull` the image from [the Hub](https://hub.docker.com/r/alexellis2/cows/).
 
 ```
-docker run alexellis2/cows 423
+$ docker run alexellis2/cows 423
+               (__)
+(__)           (oo)
+(oo)      ______\/
+-\/    /|      |
+| |   * |______|
+| |        ||
+---        --
+Cow Computer
 ```
 
 **Build the image:**
