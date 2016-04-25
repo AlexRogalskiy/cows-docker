@@ -74,9 +74,19 @@ Cow Computer
 
 ## As an npm module
 
+Start a blank project:
+
+```
+$ mkdir myproject
+$ cd myproject
+$ npm init -y
+```
+
+Then install the `showcows` module:
+
 ```
 $ npm install --save showcows
-$ var cows = require('show-cows');
+$ var cows = require('showcows');
 $ console.log(cows(1))
 
 (__)
