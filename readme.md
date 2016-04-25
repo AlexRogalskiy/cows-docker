@@ -44,7 +44,8 @@ First build the image, then log into the Docker Hub, tag the image with your use
 
 ```
 $ docker login
-$ docker tag cows cows
+$ docker tag cows some_username/cows
+$ docker push some_username/cows
 ```
 
 ## Local installation without Docker
