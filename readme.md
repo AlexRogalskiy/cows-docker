@@ -74,11 +74,11 @@ Cow Computer
 
 ## As an npm module
 
-Start a blank project:
+Start a blank node.js project with a default `package.json`:
 
 ```
-$ mkdir myproject
-$ cd myproject
+$ mkdir meadow
+$ cd meadow
 $ npm init -y
 ```
 
