@@ -101,7 +101,7 @@ Cow Computer
 
 ## Contributing
 
-If you'd like to contribute cow ASCII please head over to [sindresorhus/cows][https://github.com/sindresorhus/cows] and raise a PR with him.
+If you'd like to contribute cow ASCII please head over to [sindresorhus/cows](https://github.com/sindresorhus/cows) and raise a PR with him.
 
 I'm open to contributions to this repository - if you'd like to add an cows-based express.js web-server etc, then please send an PR.
 
