@@ -1,0 +1,10 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  ascii-cows-openfaas:
+    lang: dockerfile
+    handler: ./ascii-cows-openfaas
+    image: alexellis2/ascii-cows-openfaas:0.1
+
